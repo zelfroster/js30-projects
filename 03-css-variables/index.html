@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Sansita+Swashed:wght@400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <title>CSS JS Clock</title>
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="title">CSS Variables</h1>
+  </nav>
+  <section class="container">
+    <div class="changing-fields">
+      <label for="spacing" class="heading">Spacing</label>
+      <input type="range" id="spacing" min="0" max="40" step="2">
+    </div>
+    <div class="changing-fields">
+      <label for="blur" class="heading">Blur</label>
+      <input type="range" id="blur" min="0" max="20" step="2">
+    </div>
+    <div class="changing-fields">
+      <label for="color" class="heading">Color</label>
+      <input type="color" id="color">
+    </div>
+    <img class="main-image" src="https://w.wallhaven.cc/full/0w/wallhaven-0wjvmq.jpg" alt="main image">
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>
