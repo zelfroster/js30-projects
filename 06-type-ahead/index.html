@@ -10,22 +10,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Sansita+Swashed:wght@400&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./style.css">
-  <title>JS 30 Projects</title>
+  <title>Type Ahead</title>
 </head>
 <body>
   <nav class="navbar">
-    <h1 class="title">JS 30 Projects</h1>
-    <p>A Challenge to build 30 JavaScripts Projects in 30 days.</p>
+    <h1 class="title">Type Ahead</h1>
   </nav>
-  <main class="container">
-    <div class="button-container">
-      <a href="./01-js-drum-kit/">Drum Kit</a>
-      <a href="./02-css-js-clock/">Analog Clock</a>
-      <a href="./03-css-variables/">CSS Variables</a>
-      <a href="./04-array-cardio-1/">Array Cardio - 1</a>
-      <a href="./05-flex-panel-gallery/">Flex Panel Gallery</a>
-      <a href="./06-type-ahead/">Type Ahead</a>
-    </div>
-  </main>
+  <section class="container">
+    <form class="search-form">
+      <input type="text" class="search" placeholder="City or State">
+      <ul class="suggestions">
+        <li>Filter for a city</li>
+        <li>or a state</li>
+      </ul>
+    </form>
+  </section>
+  <script src="./script.js"></script>
 </body>
 </html>
