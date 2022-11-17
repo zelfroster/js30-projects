@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo 2", cursive;
+}
+
+:root {
+  --color: #a0ffd0;
+  --background-color: #1e1e2e;
+}
+
+body {
+  font-family: "Baloo 2", cursive;
+  width: 100vw;
+  min-height: 100vh;
+  color: var(--color);
+  background-color: var(--background-color);
+}
+
+.navbar {
+  margin: 0 auto;
+  min-height: 20vh;
+  max-width: 1080px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin: 30px 0;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+}
+
+.container {
+  margin: 0 auto;
+  min-height: 70vh;
+  max-width: 1080px;
+  display: grid;
+  place-items: center;
+}
+
+.heading {
+  font-size: 2rem;
+}
+
+.inbox {
+  max-width: 520px;
+  margin: 0px auto;
+  background: #DFDFFF22;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #AFAFFF22;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked + p {
+  background: #AFAFFF11;
+  text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+  margin: 10px 20px;
+}
+
+p {
+  margin: 0;
+  padding: 10px 20px;
+  transition: background 0.2s;
+  flex: 1;
+  font-family: "Baloo 2", cursive;
+  font-size: 18px;
+  font-weight: 200;
+  border-left: 1px solid #AFAFFF22;
+}
