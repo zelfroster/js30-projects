@@ -50,7 +50,8 @@ console.table(oldToYoung)
 const totalAge = inventors.reduce((total, inventor) => {
   return total + (inventor.passed - inventor.year)
 }, 0)
-console.log("%c🔴 Total number of years the inventors lived all together ⬇️ ", totalAge,'font-size: 14px; color: #a0ffd0')
+console.log("%c🔴 Total number of years the inventors lived all together ⬇️ ",'font-size: 14px; color: #a0ffd0')
+console.log(totalAge)
 
 // 5. Sort the inventors by years lived
 const yearsLived = inventors.sort((a,b) => (a.passed - a.year) < (b.passed - b.year))
